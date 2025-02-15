@@ -15,14 +15,16 @@ int main(){
   printf("entre com o numero 2: \n");
   scanf("%d", &numero2);
 
+  // OPERADORES DE ARITMETICA
+
   //operação soma
   soma = numero1 + numero2;
 
-  //opercao subtracao
+  //operecao subtracao
 
   subtracao = numero1 - numero2;
 
-  //operacao multiplicacao
+  //operação multiplicacao
   multiplicacao = numero1 * numero2;
 
   //operação divisao
@@ -33,6 +35,45 @@ int main(){
   printf("a Multiplicacão e: %d\n", multiplicacao);
   printf("a Divisão e: %d\n", divisao);
 
+  // OPERADORES DE ATRIBUIÇÃO
 
+  numero1 += 1;
+  numero1 -= 1;
+  numero1 *= 1;
+  numero1 /= 1;
+  numero2 += 1;
+  numero2 -= 1;
+  numero2 *= 1;
+  numero2 /= 1;
 
+  //OPERADORES DE INCREMENTO E DECREMENTO
+
+  numero1++;
+  numero1--;
+  numero2++;
+  numero2--;
+
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", subtracao);
+    printf("Multiplicação: %d\n", multiplicacao);
+    printf("Divisão: %d\n", divisao);
+    printf("Novo valor de a (após += e ++): %d\n", numero1);
+    printf("Novo valor de b (após *= e --): %d\n", numero1);
+
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", subtracao);
+    printf("Multiplicação: %d\n", multiplicacao);
+    printf("Divisão: %d\n", divisao);
+    printf("Novo valor de a (após += e ++): %d\n", numero2);
+    printf("Novo valor de b (após *= e --): %d\n", numero2);
+  
+  return 0;
 }
+
+
+
+
+
+
+
+
