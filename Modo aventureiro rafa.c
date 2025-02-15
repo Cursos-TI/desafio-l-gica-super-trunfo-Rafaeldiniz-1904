@@ -53,17 +53,9 @@ int main(){
   numero2++;
   numero2--;
 
-    printf("Soma: %d\n", soma);
-    printf("Subtração: %d\n", subtracao);
-    printf("Multiplicação: %d\n", multiplicacao);
-    printf("Divisão: %d\n", divisao);
     printf("Novo valor de a (após += e ++): %d\n", numero1);
     printf("Novo valor de b (após *= e --): %d\n", numero1);
 
-    printf("Soma: %d\n", soma);
-    printf("Subtração: %d\n", subtracao);
-    printf("Multiplicação: %d\n", multiplicacao);
-    printf("Divisão: %d\n", divisao);
     printf("Novo valor de a (após += e ++): %d\n", numero2);
     printf("Novo valor de b (após *= e --): %d\n", numero2);
   
