@@ -53,11 +53,11 @@ int main(){
   numero2++;
   numero2--;
 
-    printf("Novo valor de a (após += e ++): %d\n", numero1);
-    printf("Novo valor de b (após *= e --): %d\n", numero1);
+    printf("Novo valor de numero1: (após += e ++): %d\n", numero1);
+    printf("Novo valor de numero1: (após *= e --): %d\n", numero1);
 
-    printf("Novo valor de a (após += e ++): %d\n", numero2);
-    printf("Novo valor de b (após *= e --): %d\n", numero2);
+    printf("Novo valor de numero2: (após += e ++): %d\n", numero2);
+    printf("Novo valor de numero2: (após *= e --): %d\n", numero2);
   
   return 0;
 }
