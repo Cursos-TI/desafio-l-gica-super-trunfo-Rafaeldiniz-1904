@@ -35,39 +35,8 @@ int main(){
   printf("a Multiplicacão e: %d\n", multiplicacao);
   printf("a Divisão e: %d\n", divisao);
 
-  // OPERADORES DE ATRIBUIÇÃO
-
-  numero1 += 0;
-  numero1 -= 0;
-  numero1 *= 0;
-  numero1 /= 0;
-
-  numero2 += 0;
-  numero2 -= 0;
-  numero2 *= 0;
-  numero2 /= 0;
-
-  //OPERADORES DE INCREMENTO E DECREMENTO
-
-  numero1++;
-  numero2--;
-
-  numero2++;
-  numero1--;
-
-    printf("Novo valor de numero1: (após += e ++): %d\n", numero2);
-    printf("Novo valor de numero1: (após -= e --): %d\n", numero2);
-    printf("Novo valor de numero2: (após *= e ++): %d\n", numero2);
-    printf("Novo valor de numero2: (após /= e ++): %d\n", numero2);
-
-    printf("Novo valor de numero1: (após += e --): %d\n", numero2);
-    printf("Novo valor de numero1: (após -= e --): %d\n", numero2);
-    printf("Novo valor de numero1: (após *= e --): %d\n", numero2);
-    printf("Novo valor de numero1: (após /= e --): %d\n", numero2);
-  
   return 0;
 }
-
 
 
 
