@@ -39,13 +39,13 @@ int main(){
 
   numero1 += 0;
   numero1 -= 0;
-  numero1 *= 3;
-  numero1 /= 5;
+  numero1 *= 0;
+  numero1 /= 0;
 
   numero2 += 0;
   numero2 -= 0;
-  numero2 *= 2;
-  numero2 /= 100;
+  numero2 *= 0;
+  numero2 /= 0;
 
   //OPERADORES DE INCREMENTO E DECREMENTO
 
