@@ -58,8 +58,6 @@ int main() {
 
       printf("\n");
 
-return 0;
-  }
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
